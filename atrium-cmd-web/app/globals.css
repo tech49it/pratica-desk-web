@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Monochrome, warm-neutral premium palette */
+    --background: 48 20% 98%;
+    --foreground: 240 6% 6%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 6% 6%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 6% 6%;
+
+    --primary: 240 6% 7%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 40 12% 95%;
+    --secondary-foreground: 240 6% 10%;
+
+    --muted: 40 12% 95%;
+    --muted-foreground: 240 4% 42%;
+
+    --accent: 40 12% 94%;
+    --accent-foreground: 240 6% 10%;
+
+    --destructive: 0 60% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 10% 89%;
+    --input: 40 10% 87%;
+    --ring: 240 5% 30%;
+
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv01", "cv03";
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    @apply bg-foreground text-background;
+  }
+}
+
+@layer utilities {
+  /* eyebrow / mono label */
+  .eyebrow {
+    @apply font-mono text-[11px] uppercase tracking-[0.18em] text-muted-foreground;
+  }
+  /* dotted grid background, fading out */
+  .bg-grid {
+    background-image: radial-gradient(hsl(240 6% 6% / 0.06) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .mask-fade-b {
+    -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+  }
+  .mask-fade-x {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 12%, black 88%, transparent);
+  }
+  /* evidence trail motif */
+  .evidence {
+    @apply border-l-2 border-foreground pl-3;
+  }
+  .dark-section {
+    @apply bg-zinc-950 text-zinc-100;
+  }
+}
