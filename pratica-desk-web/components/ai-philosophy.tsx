@@ -21,7 +21,7 @@ const principles = [
   {
     icon: Ban,
     title: "No autonomous legal advice",
-    body: "Pratica Desk never interprets the law or advises a course of action. It organizes facts; attorneys make the judgment calls.",
+    body: "PraticaDesk never interprets the law or advises a course of action. It organizes facts; attorneys make the judgment calls.",
   },
   {
     icon: Lock,
@@ -66,7 +66,7 @@ export function AiPhilosophy() {
               The line we won&apos;t cross
             </p>
             <p className="mx-auto mt-3 max-w-2xl font-serif text-[26px] leading-snug">
-              Pratica Desk never gives legal advice. It surfaces evidence and options —
+              PraticaDesk never gives legal advice. It surfaces evidence and options —
               the attorney decides and acts.
             </p>
           </div>

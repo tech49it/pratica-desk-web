@@ -31,20 +31,19 @@ const siteUrl = "https://praticadesk.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Pratica Desk — The AI Operations Desk for Modern Law Firms",
-    template: "%s · Pratica Desk",
+    default: "PraticaDesk — the quiet inbox assistant for small law firms",
+    template: "%s · PraticaDesk",
   },
   description:
-    "Pratica Desk is an intelligence layer that reads across the tools your firm already uses and hands each attorney one evidence-backed brief every morning. AI assists. Attorneys decide.",
+    "PraticaDesk reviews your firm inbox, prepares a morning brief, flags unpaid-invoice follow-ups, and keeps a simple activity record — without storing client mail.",
   keywords: [
     "legal AI",
-    "law firm software",
-    "AI operations desk",
+    "law firm inbox assistant",
     "morning brief",
     "legal operations",
-    "workflow automation for law firms",
+    "small law firms",
   ],
-  authors: [{ name: "Pratica Desk" }],
+  authors: [{ name: "PraticaDesk" }],
   manifest: "/site.webmanifest",
   icons: {
     icon: [
@@ -55,20 +54,20 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
   openGraph: {
-    title: "Pratica Desk — The AI Operations Desk for Modern Law Firms",
+    title: "PraticaDesk — the quiet inbox assistant for small law firms",
     description:
-      "One intelligent workspace. Every morning. Every matter. An intelligence layer on top of the tools your firm already uses.",
+      "Reviews your firm inbox, prepares a morning brief, flags unpaid-invoice follow-ups, and keeps a simple activity record — without storing client mail.",
     url: siteUrl,
-    siteName: "Pratica Desk",
+    siteName: "PraticaDesk",
     type: "website",
     images: [
-      { url: "/og-image.png", width: 1200, height: 630, alt: "Pratica Desk" },
+      { url: "/og-image.png", width: 1200, height: 630, alt: "PraticaDesk" },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pratica Desk",
-    description: "The AI Operations Desk for Modern Law Firms.",
+    title: "PraticaDesk",
+    description: "The quiet inbox assistant for small law firms.",
     images: ["/og-image.png"],
   },
 };

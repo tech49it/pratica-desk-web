@@ -7,7 +7,7 @@ const caseStudies = [
     title: "Morning Brief",
     subtitle: "One evidence-backed brief every morning.",
     status: "In development",
-    body: "The first Pratica Desk module: an overnight job that reads across a firm's calendar, inbox, and matters, then assembles a single prioritized, sourced brief — refined with practicing attorneys before wider release.",
+    body: "The first PraticaDesk module: an overnight job that reads across a firm's calendar and inbox, then assembles a single prioritized, sourced brief — refined with practicing attorneys before wider release.",
   },
 ];
 
@@ -23,7 +23,7 @@ export function CaseStudies() {
               <span className="font-serif font-normal italic">each module.</span>
             </>
           }
-          lede="Product engineering notes on what we're actually shipping — not customer testimonials. Pratica Desk is early; here's what's real today."
+          lede="Product engineering notes on what we're actually shipping — not customer testimonials. PraticaDesk is early; here's what's real today."
         />
 
         <div className="mt-14 grid gap-4">

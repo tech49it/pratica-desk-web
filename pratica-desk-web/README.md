@@ -1,6 +1,6 @@
-# Pratica Desk — Landing Page
+# PraticaDesk — Landing Page
 
-A production-ready marketing site for **Pratica Desk**, the AI Operations Platform
+A production-ready marketing site for **PraticaDesk**, the quiet inbox assistant for small law firms
 for modern law firms. Built with Next.js 15 (App Router), TypeScript, Tailwind
 CSS, shadcn/ui, and Framer Motion. Design language: monochrome-premium,
 inspired by Linear, Vercel, and Stripe.
@@ -76,12 +76,12 @@ components/
   features.tsx        # bento feature grid
   security.tsx        # security principles + no-training callout
   integrations.tsx    # integration wordmarks + read-only diagram
-  vision.tsx          # dark roadmap / platform section
+  vision.tsx          # dark roadmap section
   demo-form.tsx       # request-a-demo form (client)
   site-footer.tsx     # dark footer
   reveal.tsx          # Framer Motion scroll-reveal wrapper
   section-heading.tsx # eyebrow + title + lede
-  logo.tsx            # Pratica Desk monogram + wordmark
+  logo.tsx            # PraticaDesk monogram + wordmark
   ui/                 # shadcn primitives
 lib/
   utils.ts            # cn()

@@ -29,7 +29,7 @@ export function ContactForm() {
     // No server-side mailer is wired yet, so hand the submission off to the
     // visitor's mail client addressed to CONTACT_EMAIL. This guarantees a lead
     // is never silently dropped (posting to /api/contact only console.logs it).
-    const subject = `Pratica Desk inquiry — ${data.name || "New lead"}${
+    const subject = `PraticaDesk inquiry — ${data.name || "New lead"}${
       data.company ? ` (${data.company})` : ""
     }`;
     const body = [
@@ -56,7 +56,7 @@ export function ContactForm() {
             Tell us about your firm — we&apos;ll show you a morning.
           </h2>
           <p className="mt-4 max-w-md text-[15px] leading-relaxed text-muted-foreground">
-            Pratica Desk is being designed with direct feedback from practicing
+            PraticaDesk is being designed with direct feedback from practicing
             attorneys. There&apos;s no pitch deck — just a conversation about how
             your firm runs today.
           </p>

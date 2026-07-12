@@ -6,9 +6,8 @@ const columns = [
   {
     heading: "Product",
     links: [
-      { label: "Solutions", href: "/solutions" },
       { label: "Legal AI", href: "/legal-ai" },
-      { label: "Workflow Automation", href: "/workflow-automation" },
+      { label: "Roadmap", href: "/#roadmap" },
       { label: "Security", href: "/#security" },
     ],
   },
@@ -38,11 +37,11 @@ export function SiteFooter() {
           <div>
             <span className="inline-flex items-center gap-2.5 text-white">
               <PraticaDeskMark />
-              <span className="text-[17px] font-semibold tracking-tight">Pratica Desk</span>
+              <span className="text-[17px] font-semibold tracking-tight">PraticaDesk</span>
             </span>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-zinc-400">
-              The AI Operations Desk for Modern Law Firms. AI assists. Attorneys
-              decide.
+              The quiet inbox assistant for small law firms. AI assists.
+              Attorneys decide.
             </p>
             <a
               href="mailto:hello@crastu.com"
@@ -53,7 +52,7 @@ export function SiteFooter() {
             <div className="mt-5 inline-flex items-center gap-2">
               {/* eslint-disable-next-line @next/next/no-img-element -- static footer credit, intentionally plain <img> */}
               <img src="/logo/crastu.png" alt="Crastu LLC" height={20} className="rounded-sm" />
-              <span className="text-[12px] text-zinc-500">A product of Crastu LLC</span>
+              <span className="text-[12px] text-zinc-500">PraticaDesk is a product of Crastu LLC.</span>
             </div>
           </div>
 
@@ -80,7 +79,7 @@ export function SiteFooter() {
 
         <div className="mt-14 flex flex-col gap-3 border-t border-zinc-800 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-mono text-[11px] tracking-wide text-zinc-500">
-            © {new Date().getFullYear()} Pratica Desk · A product of Crastu LLC
+            © {new Date().getFullYear()} PraticaDesk
           </p>
           <p className="text-[11px] text-zinc-600">
             Sample firm and matter data shown is fictional.

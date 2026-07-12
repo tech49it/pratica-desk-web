@@ -40,7 +40,7 @@ const features: Feature[] = [
   {
     icon: ShieldCheck,
     title: "You approve everything",
-    body: "Pratica Desk recommends; it never acts. Nothing is sent, filed, or changed without an attorney's explicit approval.",
+    body: "PraticaDesk recommends; it never acts. Nothing is sent, filed, or changed without an attorney's explicit approval.",
   },
   {
     icon: Inbox,
@@ -76,7 +76,7 @@ export function Features() {
               <span className="font-serif font-normal italic">and nothing they don&apos;t.</span>
             </>
           }
-          lede="Pratica Desk works across your existing stack and surfaces only what actually needs attention today, with the reasoning attached."
+          lede="PraticaDesk works across your existing stack and surfaces only what actually needs attention today, with the reasoning attached."
         />
 
         <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-3">

@@ -1,6 +1,6 @@
 {
-  "name": "Pratica Desk",
-  "short_name": "Pratica Desk",
+  "name": "PraticaDesk",
+  "short_name": "PraticaDesk",
   "description": "The AI Operations Desk for Modern Law Firms.",
   "start_url": "/",
   "display": "standalone",

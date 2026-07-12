@@ -19,9 +19,9 @@ const pillars = [
   },
   {
     icon: Workflow,
-    title: "Workflow automation",
-    body: "Routine steps proposed for approval — intake, routing, follow-ups — never executed without you.",
-    href: "/workflow-automation",
+    title: "Invoice follow-ups",
+    body: "Flags client emails tied to unpaid invoices so a partner can follow up — surfaced for you, never sent automatically.",
+    href: "#features",
   },
 ];
 
@@ -37,7 +37,7 @@ export function ProductOverview() {
               <span className="font-serif font-normal italic">it earns trust.</span>
             </>
           }
-          lede="Pratica Desk sits on top of the tools your firm already runs — reading, never acting — until an attorney says otherwise."
+          lede="PraticaDesk sits on top of the tools your firm already runs — reading, never acting — until an attorney says otherwise."
         />
 
         <div className="mt-14 grid gap-4 sm:grid-cols-3">

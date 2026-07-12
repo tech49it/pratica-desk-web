@@ -7,7 +7,7 @@ import { CtaSection } from "@/components/cta-section";
 export const metadata: Metadata = {
   title: "Legal AI",
   description:
-    "Pratica Desk's AI philosophy: evidence-backed recommendations, human-in-the-loop review, attorney approval, and no autonomous legal advice.",
+    "PraticaDesk's AI philosophy: evidence-backed recommendations, human-in-the-loop review, attorney approval, and no autonomous legal advice.",
 };
 
 export default function LegalAiPage() {
@@ -21,7 +21,7 @@ export default function LegalAiPage() {
             <span className="font-serif font-normal italic">Attorneys decide.</span>
           </>
         }
-        lede="Pratica Desk is built around a simple constraint: the model organizes evidence and drafts options, and a licensed attorney makes every judgment call."
+        lede="PraticaDesk is built around a simple constraint: the model organizes evidence and drafts options, and a licensed attorney makes every judgment call."
       />
       <AiPhilosophy />
       <CtaSection />

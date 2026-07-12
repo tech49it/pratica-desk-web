@@ -9,14 +9,14 @@ import { CtaSection } from "@/components/cta-section";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Pratica Desk is a Los Angeles-based AI workflow automation product, built for legal operations, confidentiality, and practical automation.",
+    "PraticaDesk is a Los Angeles-based inbox assistant for small law firms, built around confidentiality and one real workflow at a time.",
 };
 
 const principles = [
   {
     icon: MapPin,
     title: "Built in Los Angeles",
-    body: "Pratica Desk is built by a Los Angeles-based team focused on AI workflow automation for legal operations.",
+    body: "PraticaDesk is built by a Los Angeles-based team focused on a quiet, confidential inbox assistant for small law firms.",
   },
   {
     icon: Lock,
@@ -41,7 +41,7 @@ export default function AboutPage() {
             <span className="font-serif font-normal italic">for how law firms actually work.</span>
           </>
         }
-        lede="Pratica Desk is a product in active development — built with direct feedback from practicing attorneys and legal operations professionals, not around it."
+        lede="PraticaDesk is a product in active development — built with direct feedback from practicing attorneys and legal operations professionals, not around it."
       />
 
       <section className="border-t border-border/60 py-24 sm:py-28">
@@ -69,7 +69,7 @@ export default function AboutPage() {
           <SectionHeading
             eyebrow="Where we are today"
             title="Early, deliberately."
-            lede="Pratica Desk is currently being developed and refined with feedback from a small group of practicing attorneys and legal operations leaders. We're not claiming a customer base or results we haven't earned yet — the Morning Brief module is real and in development today, and everything after it is being built the same way: one workflow, validated with the people who'll actually rely on it."
+            lede="PraticaDesk is currently being developed and refined with feedback from a small group of practicing attorneys and legal operations leaders. We're not claiming a customer base or results we haven't earned yet — the Morning Brief module is real and in development today, and everything after it is being built the same way: one workflow, validated with the people who'll actually rely on it."
           />
         </div>
       </section>

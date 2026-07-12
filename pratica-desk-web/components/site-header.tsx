@@ -11,9 +11,7 @@ import { Logo } from "@/components/logo";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/solutions", label: "Solutions" },
   { href: "/legal-ai", label: "Legal AI" },
-  { href: "/workflow-automation", label: "Workflow Automation" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -44,7 +42,7 @@ export function SiteHeader() {
       )}
     >
       <div className="container flex h-16 items-center justify-between">
-        <Link href="/" aria-label="Pratica Desk home">
+        <Link href="/" aria-label="PraticaDesk home">
           <Logo />
         </Link>
 

@@ -18,15 +18,15 @@ export function PraticaDeskMark({ className }: { className?: string }) {
 export function Logo({ className }: { className?: string }) {
   return (
     <span className={cn("inline-flex items-center gap-2.5", className)}>
-      {/* Crastu parent-company "C" mark, used as the Pratica Desk brand mark. */}
+      {/* Crastu parent-company "C" mark, used as the PraticaDesk brand mark. */}
       <img
         src="/logo/crastu.png"
-        alt="Pratica Desk"
+        alt="PraticaDesk"
         width={24}
         height={24}
         className="h-[24px] w-[24px]"
       />
-      <span className="text-[17px] font-semibold tracking-tight">Pratica Desk</span>
+      <span className="text-[17px] font-semibold tracking-tight">PraticaDesk</span>
     </span>
   );
 }

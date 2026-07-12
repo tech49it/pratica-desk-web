@@ -3,7 +3,7 @@ import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 
 const modules = [
-  { name: "Morning Brief", body: "One evidence-backed brief every morning.", status: "First" },
+  { name: "Morning Brief", body: "One evidence-backed brief every morning.", status: "Live" },
   { name: "Inbox Intelligence", body: "Decisions separated from noise.", status: "Planned" },
   { name: "Document Intelligence", body: "Find the right draft, and what changed.", status: "Planned" },
   { name: "Workflow Automation", body: "Routine steps, proposed for approval.", status: "Planned" },
@@ -23,11 +23,11 @@ export function Vision() {
           eyebrow="Roadmap"
           title={
             <>
-              One module today.{" "}
-              <span className="font-serif font-normal italic">A platform tomorrow.</span>
+              One tool today.{" "}
+              <span className="font-serif font-normal italic">More is planned.</span>
             </>
           }
-          lede="The Morning Brief is module one. Every module ahead reuses the same read-only, evidence-backed, attorney-approved foundation — the beginning of an AI operations platform for the whole firm."
+          lede="The Morning Brief is live today. Everything below is planned — built on the same read-only, evidence-backed, attorney-approved foundation. No dates promised."
         />
 
         <div className="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -37,7 +37,7 @@ export function Vision() {
               delay={i * 0.04}
               className={cn(
                 "rounded-xl border p-5",
-                m.status === "First"
+                m.status === "Live"
                   ? "border-zinc-600 bg-zinc-900"
                   : "border-zinc-800 bg-zinc-900/50"
               )}
@@ -47,7 +47,7 @@ export function Vision() {
                 <span
                   className={cn(
                     "rounded-full border px-2.5 py-0.5 font-mono text-[9.5px] uppercase tracking-wider",
-                    m.status === "First"
+                    m.status === "Live"
                       ? "border-zinc-500 bg-white text-zinc-950"
                       : "border-zinc-700 text-zinc-500"
                   )}

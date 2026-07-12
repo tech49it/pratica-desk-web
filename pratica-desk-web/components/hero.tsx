@@ -28,27 +28,33 @@ export function Hero() {
           href="#roadmap"
           className="mb-7 inline-flex items-center gap-2 rounded-full border border-border bg-card px-3.5 py-1.5 text-[12.5px] text-muted-foreground shadow-sm transition-colors hover:text-foreground"
         >
-          Confidential inbox triage for boutique law firms.
+          Confidential inbox triage for small law firms.
           <ArrowRight className="size-3" />
         </motion.a>
 
         <motion.h1
           {...rise(0.06)}
-          className="max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-[-0.03em] sm:text-[68px]"
+          className="max-w-4xl text-balance text-6xl font-semibold leading-[1.02] tracking-[-0.03em] sm:text-[72px]"
         >
-          The AI Operations Desk for{" "}
-          <span className="font-serif font-normal italic tracking-normal">
-            modern law firms.
-          </span>
+          PraticaDesk
         </motion.h1>
 
         <motion.p
-          {...rise(0.14)}
+          {...rise(0.1)}
+          className="mt-5 max-w-2xl text-balance text-2xl leading-snug sm:text-3xl"
+        >
+          <span className="font-serif font-normal italic">
+            The quiet inbox assistant for small law firms.
+          </span>
+        </motion.p>
+
+        <motion.p
+          {...rise(0.16)}
           className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground"
         >
-          Pratica Desk is an intelligence layer that reads across the tools your
-          firm already uses — and hands each attorney one evidence-backed brief
-          before the day begins.
+          PraticaDesk reviews your firm inbox, prepares a morning brief, flags
+          unpaid-invoice follow-ups, and keeps a simple activity record — without
+          storing client mail.
         </motion.p>
 
         <motion.div {...rise(0.22)} className="mt-9 flex flex-wrap items-center justify-center gap-3">

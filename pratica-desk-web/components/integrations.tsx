@@ -23,7 +23,7 @@ export function Integrations() {
               <span className="font-serif font-normal italic">you already use.</span>
             </>
           }
-          lede="No rip-and-replace. No migration. Pratica Desk sits alongside your existing systems and reads from them — you keep working exactly as you do now."
+          lede="No rip-and-replace. No migration. PraticaDesk sits alongside your existing systems and reads from them — you keep working exactly as you do now."
         />
 
         <div className="mt-14 grid gap-4 sm:grid-cols-3">
@@ -45,7 +45,7 @@ export function Integrations() {
         </div>
 
         <p className="mt-4 text-center text-[13px] text-muted-foreground">
-          Outlook / Microsoft 365 support is on the roadmap.
+          Microsoft 365 — not supported.
         </p>
 
         <Reveal delay={0.1} className="mt-6">
@@ -57,7 +57,7 @@ export function Integrations() {
             <span className="text-[13px] text-muted-foreground">read-only</span>
             <span className="h-px flex-1 bg-border" />
             <span className="rounded-md border border-foreground px-3 py-1.5 text-[13px] font-semibold">
-              Pratica Desk
+              PraticaDesk
             </span>
           </div>
         </Reveal>
@@ -78,7 +78,7 @@ export function Integrations() {
         <p className="mt-6 max-w-3xl text-[12.5px] leading-relaxed text-muted-foreground">
           Designed around the professional duties your firm already carries —
           confidentiality, supervision, and technological competence.
-          Pratica Desk gives you the written record and revocation controls to
+          PraticaDesk gives you the written record and revocation controls to
           make that determination; it does not make the compliance call for
           you.
         </p>

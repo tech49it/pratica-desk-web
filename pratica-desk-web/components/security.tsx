@@ -48,7 +48,7 @@ export function Security() {
                 Built for <span className="font-serif font-normal italic">privilege.</span>
               </>
             }
-            lede="A tool that touches privileged communication has to earn its access. Confidentiality is a design constraint in Pratica Desk, not a setting."
+            lede="A tool that touches privileged communication has to earn its access. Confidentiality is a design constraint in PraticaDesk, not a setting."
           />
 
           <Reveal delay={0.1} className="mt-8">
