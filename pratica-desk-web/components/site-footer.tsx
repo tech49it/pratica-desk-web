@@ -20,13 +20,6 @@ const columns = [
       { label: "Request a demo", href: "/contact" },
     ],
   },
-  {
-    heading: "Legal",
-    links: [
-      
-      
-    ],
-  },
 ];
 
 export function SiteFooter() {
