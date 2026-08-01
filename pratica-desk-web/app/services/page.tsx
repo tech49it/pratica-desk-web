@@ -128,7 +128,7 @@ export default function ServicesPage() {
             help, I&apos;ll say so on the call — that&apos;s cheaper for both of us than
             finding out later.
           </p>
-          
+          <a
             href="mailto:hello@crastu.com?subject=Services%20inquiry"
             className="mt-8 inline-block rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background"
           >
