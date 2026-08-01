@@ -65,7 +65,7 @@ export function CaseStudies() {
                 {cs.body}
               </p>
               {cs.href && (
-                
+                <a
                   href={cs.href}
                   target="_blank"
                   rel="noopener noreferrer"
