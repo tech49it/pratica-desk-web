@@ -23,8 +23,8 @@ const columns = [
   {
     heading: "Legal",
     links: [
-      { label: "Privacy", href: "#" },
-      { label: "Terms", href: "#" },
+      
+      
     ],
   },
 ];

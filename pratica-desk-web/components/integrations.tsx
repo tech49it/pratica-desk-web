@@ -45,7 +45,7 @@ export function Integrations() {
         </div>
 
         <p className="mt-4 text-center text-[13px] text-muted-foreground">
-          Microsoft 365 — not supported.
+          Not yet supported — on the roadmap: Clio · MyCase · Microsoft 365
         </p>
 
         <Reveal delay={0.1} className="mt-6">
