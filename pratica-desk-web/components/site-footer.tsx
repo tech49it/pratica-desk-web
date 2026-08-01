@@ -7,6 +7,7 @@ const columns = [
     heading: "Product",
     links: [
       { label: "Legal AI", href: "/legal-ai" },
+      { label: "Services", href: "/services" },
       { label: "Roadmap", href: "/#roadmap" },
       { label: "Security", href: "/#security" },
     ],
