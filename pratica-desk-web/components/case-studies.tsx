@@ -2,12 +2,29 @@ import { Badge } from "@/components/ui/badge";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 
-const caseStudies = [
+type CaseStudy = {
+  title: string;
+  subtitle: string;
+  status: string;
+  body: string;
+  href?: string;
+  linkLabel?: string;
+};
+
+const caseStudies: CaseStudy[] = [
   {
     title: "Morning Brief",
     subtitle: "One evidence-backed brief every morning.",
     status: "In development",
     body: "The first PraticaDesk module: an overnight job that reads across a firm's calendar and inbox, then assembles a single prioritized, sourced brief — refined with practicing attorneys before wider release.",
+  },
+  {
+    title: "AI Intake",
+    subtitle: "Structured intake, screened for attorney review.",
+    status: "Working prototype",
+    body: "A working prototype of the intake module, built in a consumer-protection context: a lead's answers are screened against rules the attorneys own, producing a qualification assessment, procedural deadlines, a document checklist, and an attorney-ready summary. Every output is preliminary until a person reviews it.",
+    href: "https://tech49it.github.io/lemon-qualifier/",
+    linkLabel: "See the live demo",
   },
 ];
 
@@ -47,6 +64,16 @@ export function CaseStudies() {
               <p className="mt-5 max-w-2xl text-[15px] leading-relaxed text-muted-foreground">
                 {cs.body}
               </p>
+              {cs.href && (
+                
+                  href={cs.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-block text-sm font-medium underline underline-offset-4 hover:text-foreground"
+                >
+                  {cs.linkLabel} &rarr;
+                </a>
+              )}
             </Reveal>
           ))}
         </div>
