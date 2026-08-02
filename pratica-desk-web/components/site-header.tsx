@@ -12,7 +12,6 @@ import { Logo } from "@/components/logo";
 const links = [
   { href: "/", label: "Home" },
   { href: "/legal-ai", label: "Legal AI" },
-  { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];

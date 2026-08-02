@@ -7,7 +7,6 @@ const columns = [
     heading: "Product",
     links: [
       { label: "Legal AI", href: "/legal-ai" },
-      { label: "Services", href: "/services" },
       { label: "Roadmap", href: "/#roadmap" },
       { label: "Security", href: "/#security" },
     ],
@@ -19,6 +18,13 @@ const columns = [
       { label: "Case studies", href: "/#case-studies" },
       { label: "Contact", href: "/contact" },
       { label: "Request a demo", href: "/contact" },
+    ],
+  },
+  {
+    heading: "Legal",
+    links: [
+      { label: "Privacy", href: "/privacy" },
+      { label: "Terms", href: "/terms" },
     ],
   },
 ];
